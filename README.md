@@ -23,6 +23,7 @@ The extended version requires some CSS to style the replay button overlay; you c
 
 At the moment, it's an extremely simple script I wrote for a specific purpose but I'm planning on adding some basic customisable options so it can be used more widely.
 - Select by a class (e.g. `<video class="scrollplay">`) instead of just all video tags
+- Option to allow only certain videos to have replaying enabled with the extended version
 - Define proportion of video's height that needs to be scrolled into view before starting (e.g. start playing a video when 80% of it is visible instead of waiting for it to be entirely in view)
 - Looping options
 - Enable or disable whether the video should play again when it's scrolled in to view after having scrolled back up past it
