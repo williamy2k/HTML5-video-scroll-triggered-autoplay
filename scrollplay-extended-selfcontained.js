@@ -33,6 +33,13 @@ function checkVidScroll() {
 window.addEventListener('scroll', checkVidScroll, false);
 window.addEventListener('resize', checkVidScroll, false);
 
+
+
+function isMobile() { return ('ontouchstart' in document.documentElement); }
+
+if (!isMobile()) {
+
+
 	
 	var videos = document.getElementsByTagName('video');
 	
@@ -78,3 +85,4 @@ var stylesheetstring = '.overlay{background-image:url(data:image/svg+xml;base64,
 var stylenode = document.createElement('style');
     stylenode.innerHTML = stylesheetstring;
     document.body.appendChild(stylenode);
+}
