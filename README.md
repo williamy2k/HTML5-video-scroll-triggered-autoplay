@@ -7,7 +7,17 @@ You can see it in action here: [scrollplay](https://williaminglesfield.com/nse/s
 
 ## How to use
 
-You can include the script anywhere in your HTML document. Since it selects video tags each time the page is scrolled or window resized, it doesn't need to be positioned at the bottom of the `<body>` or in some kind of document ready function.
+There are two versions: the standard version and the extended version.
+
+The standard version simply makes videos autoplay when scrolled. The extended version does the same, but also allows you to hover over videos displaying a replay button to replay the video.
+
+The extended version requires some CSS to style the replay button overlay; you can either use the self contained version which injects the CSS as a `<style>` tag, or use the plain javascript and implement the styles separately (either by including the default CSS in your stylesheet or making your own equivalent styles).
+
+| Configuation              | How to set up                                                                                                                                                       | CDN                                                                                                                        |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Standard                  | Include scrollplay.js anywhere in the document                                                                                                                      | https://cdn.jsdelivr.net/gh/williamy2k/HTML5-video-scroll-triggered-autoplay@v0.2/scrollplay.min.js                        |
+| Extended (self-contained) | Include scrollplay-extended.js at the bottom of `<body>` or in some form of document ready                                                                          | https://cdn.jsdelivr.net/gh/williamy2k/HTML5-video-scroll-triggered-autoplay@v0.2/scrollplay-extended-selfcontained.min.js |
+| Extended (separate CSS)   | Include scrollplay-extended.js at the bottom of `<body>` or in some form of document ready **AND** include the styles in scrollplay-extended.css in your stylesheet | ---                                                                                                                        |
 
 ## Future plans
 
