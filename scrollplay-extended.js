@@ -39,13 +39,11 @@ window.addEventListener('resize', checkVidScroll, false);
 
 
 
+function isMobile() { return ('ontouchstart' in document.documentElement); }
+
+if (!isMobile()) {
 
 
-
-
-
-
-	
 	var videos = document.getElementsByTagName('video');
 	
 	for(var i = 0; i < videos.length; i++) {
@@ -84,3 +82,4 @@ window.addEventListener('resize', checkVidScroll, false);
 		
 	}, false);
 	}
+}
