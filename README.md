@@ -1,6 +1,10 @@
 # HTML5-video-scroll-triggered-autoplay
 A script that makes all HTML5 videos in a document start playing when they're scrolled fully in to the viewport.
 
+## Demo
+
+You can see it in action here: [scrollplay](https://williaminglesfield.com/nse/scrollplay/)
+
 ## How to use
 
 You can include the script anywhere in your HTML document. Since it selects video tags each time the page is scrolled or window resized, it doesn't need to be positioned at the bottom of the `<body>` or in some kind of document ready function.
