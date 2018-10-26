@@ -46,13 +46,6 @@ window.addEventListener('resize', checkVidScroll, false);
 
 
 	
-	var existingOverlays = document.getElementsByClassName('overlay');
-
-while(existingOverlays[0]) {
-    existingOverlays[0].parentNode.removeChild(existingOverlays[0]);
-}
-	
-	
 	var videos = document.getElementsByTagName('video');
 	
 	for(var i = 0; i < videos.length; i++) {
