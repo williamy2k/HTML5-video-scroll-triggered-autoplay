@@ -11,9 +11,9 @@ There are two versions: the standard version and the extended version.
 
 The standard version simply makes videos autoplay when scrolled. The extended version does the same, but also allows you to hover over videos displaying a replay button to replay the video.
 
-<aside class="notice">
+
 The replay feature added by the extended version is currently disabled on mobile as the overlay that appears on hover doesn't work as it remains stuck after tapping. This will be fixed in the next version.
-</aside>
+
 
 The extended version requires some CSS to style the replay button overlay; you can either use the self contained version which injects the CSS as a `<style>` tag, or use the plain javascript and implement the styles separately (either by including the default CSS in your stylesheet or making your own equivalent styles).
 
